@@ -1,0 +1,9 @@
+body {
+  height: 120vh;
+  text-align: center;
+}
+/* ! Scroll Bar hide */
+
+body::-webkit-scrollbar {
+  display: none;
+}
