@@ -30,8 +30,9 @@ function findOdd(arr) {
 console.log(findOdd(text));
 
 //! double click prevent first click !!!!!
+//! React link: https://codesandbox.io/s/junior-react-interview-hpe3t7?file=/src/App.tsx:821-879
 
-//? With this method when we see dog if double click again for a little short time we will see the cat and after than we will see a dog but we don't want that and that leads us to the second method
+//? With this method when we see dog if double click again for a little short time we will see the cat and after than we will see a dog but we don't want that and that leads us to the second method which attached to the above link
 
 //* const button = document.querySelector(".change");
 //* const image = document.querySelector(".image");
