@@ -28,3 +28,17 @@ function findOdd(arr) {
   }
 }
 console.log(findOdd(text));
+
+//! double click prevent first click !!!!!
+
+//? With this method when we see dog if double click again for a little short time we will see the cat and after than we will see a dog but we don't want that and that leads us to the second method
+
+//* const button = document.querySelector(".change");
+//* const image = document.querySelector(".image");
+//* button.addEventListener("click", () => {
+//*   image.innerHTML = `<img src="${`https://source.unsplash.com/random/300x300/?cat`}" alt="">`;
+//* });
+
+//* button.addEventListener("dblclick", () => {
+//*   image.innerHTML = `<img src="${`https://source.unsplash.com/random/300x300/?dog`}" alt="">`;
+//* });
