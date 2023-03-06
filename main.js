@@ -29,6 +29,16 @@ function findOdd(arr) {
 }
 console.log(findOdd(text));
 
+//? C A P I T A L I Z E
+
+let str = "bekir bali";
+let arr = str.split(" ");
+console.log(
+  arr.map((item) => item.charAt(0).toUpperCase() + item.slice(1)).join(" ")
+);
+
+//*********************** */
+
 //! double click prevent first click !!!!!
 //! React link: https://codesandbox.io/s/junior-react-interview-hpe3t7?file=/src/App.tsx:821-879
 
