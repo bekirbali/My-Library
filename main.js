@@ -37,6 +37,8 @@ console.log(
   arr.map((item) => item.charAt(0).toUpperCase() + item.slice(1)).join(" ")
 );
 
+const capitalizedString = str => str.replace(/\b\w/g, c => c.toUpperCase());
+
 //*********************** */
 
 //! double click prevent first click !!!!!
